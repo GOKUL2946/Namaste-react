@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
 // const h1 = document.createElement('h1');
 // h1.innerText = 'Namaste javascript';
 // h1.className = 'heading';
@@ -13,28 +16,28 @@ const parent = React.createElement(
   [
     React.createElement(
       'div',
-      { id: 'child1' },
+      { id: 'child1', key: 'child1' },
       [
-        React.createElement('h1', {}, 'I am child 1'),
-        React.createElement('h2', {}, 'I am child 1')
+        React.createElement('h1', { key: 'child1-heading1' }, 'Namset javascript'),
+        React.createElement('h2', { key: 'child1-heading2' }, 'I am child 1')
       ]
     ),
 
     React.createElement(
       'div',
-      { id: 'child2' },
+      { id: 'child2', key: 'child2' },
       [
-        React.createElement('h1', {}, 'I am child 2'),
-        React.createElement('h2', {}, 'I am child 2')
+        React.createElement('h1', { key: 'child2-heading1' }, 'I am child 2'),
+        React.createElement('h2', { key: 'child2-heading2' }, 'I am child 2')
       ]
     ),
 
     React.createElement(
       'div',
-      { id: 'child3' },
+      { id: 'child3', key: 'child3' },
       [
-        React.createElement('h1', {}, 'I am child 3'),
-        React.createElement('h2', {}, 'I am child 3')
+        React.createElement('h1', { key: 'child3-heading1' }, 'I am child 3'),
+        React.createElement('h2', { key: 'child3-heading2' }, 'I am child 3')
       ]
     )
   ]

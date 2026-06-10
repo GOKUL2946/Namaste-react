@@ -1,0 +1,31 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "This is namaste React with Gokul",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GOKUL2946/Namaste-react.git"
+  },
+  "keywords": [],
+  "author": "gokul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GOKUL2946/Namaste-react/issues"
+  },
+  "homepage": "https://github.com/GOKUL2946/Namaste-react#readme",
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not < 0.2%"
+  ],
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
